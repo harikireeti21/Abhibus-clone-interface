@@ -12,63 +12,54 @@
 </head>
 <body>
     
-    <div class="main-box">
-<div class="nav-container">
+<div class="main-box">
+
 <div class="header">
-    <div class="inner-head">
     <div style="display:flex; gap:10px; align-items:center;">
-    <div class="logo"><img width="190px" src="data:image/png;base64,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" alt=""></div>
-    <img  src="/images/icon@pic.jpg" class="trust" alt="Trusted by 5 Crore+ Indians">
+    <div class="logo"><span class="red">abhi</span><span class="brown">bus</span></div>
+    <img src="images/icon@pic.jpg" class="trust" alt="Trusted by 5 Crore+ Indians">
     </div>
 
     <nav class="menu">
-        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="2.2rem" fill="none" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M21 12c0-.671-.92-1.228-1.06-1.855-.144-.649.446-1.558.17-2.143-.28-.594-1.345-.687-1.743-1.198-.4-.514-.256-1.598-.755-2.006-.5-.408-1.497-.022-2.078-.31-.572-.281-.898-1.323-1.531-1.47-.614-.144-1.347.648-2.003.648-.656 0-1.39-.792-2.003-.649-.633.148-.959 1.19-1.53 1.472-.581.287-1.577-.101-2.079.309-.501.41-.356 1.495-.755 2.006-.398.51-1.463.603-1.743 1.198-.276.585.314 1.494.17 2.142C3.92 10.772 3 11.33 3 12s.92 1.227 1.06 1.855c.144.649-.446 1.558-.17 2.143.28.595 1.345.688 1.743 1.198.4.513.256 1.598.755 2.006.5.408 1.497.022 2.078.31.572.281.898 1.323 1.531 1.47.614.143 1.347-.648 2.003-.648.656 0 1.39.791 2.003.649.633-.148.959-1.19 1.53-1.472.581-.287 1.577.101 2.079-.309.501-.41.356-1.495.755-2.006.398-.51 1.463-.603 1.743-1.198.276-.585-.314-1.494-.17-2.142C20.08 13.228 21 12.67 21 12ZM15.975 9.38c.81-.793-.42-2.05-1.23-1.257L8.08 14.641c-.81.793.419 2.05 1.229 1.257l6.666-6.52Zm-.176 5.158a1.099 1.099 0 1 1-2.197 0 1.099 1.099 0 0 1 2.197 0Zm-6.372-3.955a1.099 1.099 0 1 0 0-2.198 1.099 1.099 0 0 0 0 2.198Z" clip-rule="evenodd"></path></svg> Offers</a>
-        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="2.2rem" fill="none" viewBox="0 0 24 24"><path fill="currentColor" d="M3.707 19.997h12.137v-.938a.368.368 0 0 1 .637-.277.37.37 0 0 1 .098.277v.938h3.31a2.208 2.208 0 0 0 2.207-2.207v-1.937a.369.369 0 0 0-.368-.368 1.229 1.229 0 0 1 0-2.457.368.368 0 0 0 .368-.367v-1.938a2.208 2.208 0 0 0-2.207-2.207h-3.31v.938a.37.37 0 1 1-.736 0v-.938H3.707A2.208 2.208 0 0 0 1.5 10.722v1.938a.367.367 0 0 0 .367.367 1.229 1.229 0 0 1 0 2.457.369.369 0 0 0-.367.368v1.939a2.209 2.209 0 0 0 2.207 2.206Zm12.137-8.62a.368.368 0 0 1 .717-.151.37.37 0 0 1 .018.15v1.92a.37.37 0 1 1-.735 0v-1.92Zm0 3.843a.368.368 0 0 1 .64-.28.368.368 0 0 1 .095.28v1.92a.37.37 0 1 1-.735 0v-1.92ZM6.39 12.395h5.406a.368.368 0 1 1 0 .736H6.391a.368.368 0 0 1 0-.736Zm0 2.99h2.704a.368.368 0 1 1 0 .736H6.39a.368.368 0 0 1 0-.736Z"></path><path fill="currentColor" d="M21.378 8.188c.478.28.867.689 1.122 1.18l-1.132-3.78a2.21 2.21 0 0 0-2.737-1.5L5.917 7.78H19.89c.524-.002 1.04.14 1.49.408Z"></path></svg> Track Ticket</a>
-        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="2.2rem" fill="none" viewBox="0 0 22 19"><path fill="currentColor" fill-rule="evenodd" d="M11 3.478c-3.285 0-5.948 2.652-5.948 5.923 0 3.27 2.663 5.922 5.948 5.922h3.06a2.882 2.882 0 0 0 2.888-2.876V9.401c0-3.271-2.663-5.923-5.948-5.923ZM7.925 8.614c1.018 0 1.018 1.573 0 1.573-1.019 0-1.019-1.573 0-1.573Zm3.075 0c-1.018 0-1.018 1.573 0 1.573 1.019 0 1.019-1.573 0-1.573Zm3.075 0c1.019 0 1.019 1.573 0 1.573-1.018 0-1.018-1.573 0-1.573Z" clip-rule="evenodd"></path><path fill="currentColor" d="M3.419 7.23a7.879 7.879 0 0 1 15.162 0 1.832 1.832 0 0 0-.753 1.483v3.258c0 2.367 3.672 2.367 3.672 0V8.713c0-.88-.62-1.616-1.448-1.794A9.38 9.38 0 0 0 11 0a9.38 9.38 0 0 0-9.052 6.919A1.836 1.836 0 0 0 .5 8.713v3.258c0 1.355 1.492 2.24 2.673 1.634 1.061 1.758 2.862 4.569 5.585 4.8.167.341.515.578.92.583l1.039.012c1.339.016 1.363-2.064.024-2.08l-1.038-.012a1.037 1.037 0 0 0-.874.46c-2.455-.211-4.043-2.731-4.956-4.392.19-.289.3-.634.3-1.005V8.713c0-.609-.297-1.149-.754-1.482Z"></path></svg> Need Help?</a>
-        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="2.2rem" fill="none" viewBox="0 0 24 24"><path fill="currentColor" d="M11.917 2.422h.134a5.005 5.005 0 0 1 4.473 2.919 4.95 4.95 0 0 1 .283 3.314 5.004 5.004 0 0 1-3.02 3.377 4.933 4.933 0 0 1-2.641.259 4.964 4.964 0 0 1-2.541-1.274A4.947 4.947 0 0 1 8.36 4.02a5.006 5.006 0 0 1 3.556-1.598ZM5.696 13.704a6.086 6.086 0 0 1 2.677-.977c.375-.014.64.29.948.453 1.704 1.025 3.996.96 5.633-.174.215-.162.47-.302.75-.27 1.63.2 3.154 1.105 4.13 2.424.294.376.545.788.719 1.234.066.18-.068.34-.158.483-.226.376-.49.728-.765 1.07-.765.899-1.654 1.705-2.685 2.288-1.474.871-3.183 1.317-4.892 1.34h-.142c-.38-.02-.76-.022-1.137-.08a9.759 9.759 0 0 1-4.834-1.982c-.957-.763-1.803-1.674-2.433-2.727a.471.471 0 0 1-.039-.448 6.206 6.206 0 0 1 2.228-2.634Z"></path></svg> Login/SignUp</a>
+        <a href="#">⚙ Offers</a>
+        <a href="#">🧾 Track Ticket</a>
+        <a href="#">💬 Need Help?</a>
+        <a href="#">👤 Login/SignUp</a>
     </nav>
 </div>
-</div>
+
 <div class="heroOuter">
   <div class="hero">
     <div class="boxMain">
 
         <div class="tabs">
-            <span style="display: flex; font-size: 1.5rem; font-weight: 700;">
-            <div class="activeTab" style="color: black;"><img src="https://static.abhibus.com/web/bus.svg"> Buses</div>
+            <div class="activeTab"><img src="https://static.abhibus.com/web/bus.svg"> Buses</div>
             <div><img src="https://static.abhibus.com/web/flight.svg"> Flights</div>
             <div><img src="https://static.abhibus.com/web/train.svg"> Trains</div>
-            <div><img src="https://static.abhibus.com/web/hotel.svg"> Hotels</div></span>
-            <div style="margin-left:auto; font-size:23px;font-weight: 550; color: black;">India’s Fastest Bus Ticket Booking Platform</div>
+            <div><img src="https://static.abhibus.com/web/hotel.svg"> Hotels</div>
+            <div style="margin-left:auto; font-size:15px;">India’s Fastest Bus Ticket Booking Platform</div>
         </div>
 
-<div class="fields">
-
-    <input type="text" class="f" placeholder="▲ Leaving From">
-
-    <div class="swap">⇄</div>
-
-    <input type="text" class="f" placeholder="📍 Going To">
-
-    <input type="date" class="f departure">
-
-    <button class="f btn-opt">Today</button>
-
-    <button class="f btn-opt">Tomorrow</button>
-
-    <a href="#" class="search-btn">Search ></a>
-</div>
-
+        <div class="fields">
+            <div class="f">▲ Leaving From</div>
+            <div class="swap">⇄</div>
+            <div class="f">📍 Going To</div>
+            <div class="f departure">📅 06/12/2025</div>
+            <div class="f">Today</div>
+            <div class="f">Tomorrow</div>
+            <div class="f btn">Search  ></div>
+        </div>
 
     </div>
   </div>
-</div></div>
+</div>
+
+
     <div class="scroll-container">
         <span class="top-box">
             <h2>Bus Booking Discount Offers</h2>
             <a href="">View All ></a>
         </span>
-        <a href="" id="left-arrow"> <span class="material-symbols-outlined">arrow_back_ios_new</span></a>
     <div class="scroldvi">
         <a href="" class="scrolla"><img  class="scrollimg" src="https://static.abhibus.com/offerbanners/Nov2025/03/1762192431-Grandsale-720x360-C.webp" alt=""></a>
         <a href="" class="scrolla"><img class="scrollimg" src="https://static.abhibus.com/offerbanners/Nov2025/03/1762192603-Grandwin-720x360.webp" alt=""></a>
@@ -77,10 +68,9 @@
         <a href="" class="scrolla"><img class="scrollimg" src="https://static.abhibus.com/offerbanners/Aug2025/14/1755153534-720x360(1).webp" alt=""></a>
         <a href="" class="scrolla"><img class="scrollimg" src="https://static.abhibus.com/offerbanners/Oct2024/07/1728295367-720x360.webp" alt=""></a>
     </div>
-    <a href="" class="right-arrow"> <span class="material-symbols-outlined">arrow_forward_ios</span></a>
-</div>
-<div class="slider-dots">
-    <div id="scrolmin"> <span class="active"> </span></div>
+    <div class="slider-dots">
+        <div id="scrolmin"> <span class="active"> </span></div>
+    </div>
 </div>
     <div class="container_text">
         <h2>Why Choose AbhiBus for Bus Ticket Booking?</h2>
@@ -133,11 +123,10 @@
         </div>
         </div>
     </div>
-    <a href="" class="right-arrow" style=" top: -7rem;"> <span class="material-symbols-outlined">arrow_forward_ios</span></a>
     <div class="Third-text">
-        <div style="display: flex; justify-content: space-between;"><h2>Book Bus Tickets at AbhiBus</h2>
-        <a class="btn  light link primary md rounded-md inactive link" id="view-srtcs-link" href="https://www.abhibus.com/srtc-directory/" style="color: rgb(209, 33, 33); font-size: 1.5rem;">View All SRTCs</a></div>
-        <div><p style="margin: 0;font-weight: 300; font-size: 1.5rem; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">From SRTC (State Road Transport Corporation)</p></div>
+        <div style="display: flex; justify-content: space-between; align-items: center;"><h2>Book Bus Tickets at AbhiBus</h2>
+        <a class="btn-light" id="view-srtcs-link" href="https://www.abhibus.com/srtc-directory/" style="color: rgb(209, 33, 33); font-size: 1.5rem;">View All SRTCs</a></div>
+        <div><p style="margin: 0;font-weight: 300; font-size: 1rem; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">From SRTC (State Road Transport Corporation)</p></div>
         
         <div class="scroldvi" style="padding-bottom: 3rem; padding-left: 2rem; width: 103%; margin-left: -4rem;">
             <!-- AP -->
@@ -146,9 +135,9 @@
                  <div class="layer-1 col"></div>
                  <div class="layer-2 col">
                  </div><div class="card-header-icon-img   ">
-                     <img src="https://static.abhibus.com/web/APSRTC.webp" alt="APSRTC" width="174" height="174" style="background-color: #F2FBF4; border-radius: 50%;"></div>
+                     <img src="https://static.abhibus.com/web/APSRTC.webp" alt="APSRTC" width="120" style="background-color: #F2FBF4; border-radius: 50%;"></div>
                      <div class="srtc-card-body" >
-                        <div class=" col">
+                        <div class=" col-h3-p">
                         <h3 class="text-neutral-0" >APSRTC</h3>
                          <p class="text-neutral-0" >Andhra Pradesh State Road Transport Corporation</p>
                         </div>
@@ -162,9 +151,9 @@
                  <div class="layer-1 col"></div>
                  <div class="layer-2 col">
                  </div><div class="card-header-icon-img   ">
-                     <img src="https://static.abhibus.com/web/TGSRTC.webp" alt="APSRTC" width="174" height="174" style="background-color: #F2FBF4; border-radius: 50%;"></div>
+                     <img src="https://static.abhibus.com/web/TGSRTC.webp" alt="APSRTC" width="120"  style="background-color: #F2FBF4; border-radius: 50%;"></div>
                      <div class="srtc-card-body" >
-                        <div class=" col">
+                        <div class=" col-h3-p">
                         <h3 class="text-neutral-0" >APSRTC</h3>
                          <p class="text-neutral-0" >Andhra Pradesh State Road Transport Corporation</p>
                         </div>
@@ -178,9 +167,9 @@
                  <div class="layer-1 col"></div>
                  <div class="layer-2 col">
                  </div><div class="card-header-icon-img   ">
-                     <img src="https://static.abhibus.com/web/KERALARTC.webp" alt="APSRTC" width="174" height="174" style="background-color: #F2FBF4; border-radius: 50%;"></div>
+                     <img src="https://static.abhibus.com/web/KERALARTC.webp" alt="APSRTC" width="120"  style="background-color: #F2FBF4; border-radius: 50%;"></div>
                      <div class="srtc-card-body" >
-                        <div class=" col">
+                        <div class=" col-h3-p">
                         <h3 class="text-neutral-0" >APSRTC</h3>
                          <p class="text-neutral-0" >Andhra Pradesh State Road Transport Corporation</p>
                         </div>
@@ -194,9 +183,9 @@
                  <div class="layer-1 col"></div>
                  <div class="layer-2 col">
                  </div><div class="card-header-icon-img   ">
-                     <img src="https://static.abhibus.com/web/GSRTC.webp" alt="APSRTC" width="174" height="174" style="background-color: #F2FBF4; border-radius: 50%;"></div>
+                     <img src="https://static.abhibus.com/web/GSRTC.webp" alt="APSRTC" width="120" style="background-color: #F2FBF4; border-radius: 50%;"></div>
                      <div class="srtc-card-body" >
-                        <div class=" col">
+                        <div class=" col-h3-p">
                         <h3 class="text-neutral-0" >APSRTC</h3>
                          <p class="text-neutral-0" >Andhra Pradesh State Road Transport Corporation</p>
                         </div>
@@ -210,9 +199,9 @@
                  <div class="layer-1 col"></div>
                  <div class="layer-2 col">
                  </div><div class="card-header-icon-img   ">
-                     <img src="https://static.abhibus.com/web/RSRTC.webp" alt="APSRTC" width="174" height="174" style="background-color: #F2FBF4; border-radius: 50%;"></div>
+                     <img src="https://static.abhibus.com/web/RSRTC.webp" alt="APSRTC" width="120"  style="background-color: #F2FBF4; border-radius: 50%;"></div>
                      <div class="srtc-card-body" >
-                        <div class=" col">
+                        <div class=" col-h3-p">
                         <h3 class="text-neutral-0" >APSRTC</h3>
                          <p class="text-neutral-0" >Andhra Pradesh State Road Transport Corporation</p>
                         </div>
@@ -226,9 +215,9 @@
                  <div class="layer-1 col"></div>
                  <div class="layer-2 col">
                  </div><div class="card-header-icon-img   ">
-                     <img src="https://static.abhibus.com/web/UPSRTC.webp" alt="APSRTC" width="174" height="174" style="background-color: #F2FBF4; border-radius: 50%;"></div>
+                     <img src="https://static.abhibus.com/web/UPSRTC.webp" alt="APSRTC" width="120"  style="background-color: #F2FBF4; border-radius: 50%;"></div>
                      <div class="srtc-card-body" >
-                        <div class=" col">
+                        <div class=" col-h3-p">
                         <h3 class="text-neutral-0" >APSRTC</h3>
                          <p class="text-neutral-0" >Andhra Pradesh State Road Transport Corporation</p>
                         </div>
@@ -242,9 +231,9 @@
                  <div class="layer-1 col"></div>
                  <div class="layer-2 col">
                  </div><div class="card-header-icon-img   ">
-                     <img src="https://static.abhibus.com/web/HRTC.webp" alt="APSRTC" width="174" height="174" style="background-color: #F2FBF4; border-radius: 50%;"></div>
+                     <img src="https://static.abhibus.com/web/HRTC.webp" alt="APSRTC" width="120" style="background-color: #F2FBF4; border-radius: 50%;"></div>
                      <div class="srtc-card-body" >
-                        <div class=" col">
+                        <div class=" col-h3-p">
                         <h3 class="text-neutral-0" >APSRTC</h3>
                          <p class="text-neutral-0" >Andhra Pradesh State Road Transport Corporation</p>
                         </div>
@@ -254,7 +243,6 @@
             </div>
 
 </div>
-<a href="" class="right-arrow" style="z-index: 5; top: -22rem; right: 4rem;"> <span class="material-symbols-outlined">arrow_forward_ios</span></a>
 </div>
 
 
@@ -262,27 +250,27 @@
 <div class="abhi-assured-card">
     <img src="https://static.abhibus.com/img/assured_partner/assured-svg-log0.svg" alt="">
   <div class="inner-card">
-    <span><svg style=" color: white; " xmlns="http://www.w3.org/2000/svg" width="90px" fill="currentColor" viewBox="0 0 38 39"><path d="M21.877 16.036a.704.704 0 0 0-1 0l-1.793 1.794-1.793-1.794a.704.704 0 0 0-1 0 .704.704 0 0 0 0 1l1.794 1.793-1.794 1.794a.704.704 0 0 0 0 1c.137.136.32.208.502.208a.702.702 0 0 0 .501-.209l1.794-1.793 1.793 1.793a.702.702 0 0 0 1.003 0 .704.704 0 0 0 0-1l-1.793-1.793 1.794-1.793a.704.704 0 0 0 0-1h-.008Z"></path><path d="M18.825 36.325c-9.154 0-16.602-7.448-16.602-16.602S9.67 3.121 18.825 3.121s16.602 7.448 16.602 16.602c0 9.155-7.448 16.602-16.602 16.602Zm0-30.662c-7.752 0-14.056 6.308-14.056 14.056 0 7.749 6.308 14.057 14.056 14.057 7.748 0 14.056-6.308 14.056-14.057 0-7.748-6.304-14.056-14.056-14.056Z"></path><path d="M10.28 16.645H9.4a.247.247 0 0 0-.247.247v2.26c0 .137.11.247.247.247h.878c.136 0 .247-.11.247-.247v-2.26a.247.247 0 0 0-.247-.247ZM28.363 16.602h-.878a.247.247 0 0 0-.247.247v2.26c0 .137.11.248.247.248h.878c.137 0 .247-.111.247-.247v-2.261a.247.247 0 0 0-.247-.247Z"></path><path d="M27.695 15.98s.015.008.015.016v.604h.399v-.604c0-.217-.187-.392-.418-.392h-.867v-3.078c0-.866-.676-1.58-1.543-1.63l-5.89-.17a8.308 8.308 0 0 0-.972 0l-5.837.166a1.747 1.747 0 0 0-1.653 1.745v3.013H10.1c-.25 0-.455.175-.455.391v.605h.437v-.605s.007-.015.018-.015h.829v11.651a.72.72 0 0 0 .718.718h.14v.597c0 .315.255.57.57.57h1.008a.57.57 0 0 0 .57-.57v-.597h9.933v.597c0 .315.255.57.57.57h1.007a.57.57 0 0 0 .57-.57v-.597h.091c.395 0 .718-.319.718-.718V15.984h.867l.004-.003Zm-14.167-3.739c0-.25.205-.452.452-.452h9.918a.45.45 0 0 1 .453.452v1.186c0 .25-.206.452-.453.452H13.98a.45.45 0 0 1-.452-.452v-1.186Zm-1.03 14.155a.802.802 0 1 1 0-1.604.802.802 0 0 1 0 1.604Zm8.653 1.152c0 .133-.11.243-.243.243h-3.952a.245.245 0 0 1-.244-.243v-.365c0-.133.11-.243.244-.243h3.952c.133 0 .243.11.243.243v.365Zm1.558-1.953a.802.802 0 1 1 1.604 0 .802.802 0 0 1-1.604 0Zm3.393-3.569c0 .608-.479 1.11-1.09 1.133l-4.4.19a43.722 43.722 0 0 1-3.459 0l-4.366-.19a1.135 1.135 0 0 1-1.09-1.133v-6.771c0-.445.36-.802.809-.802h12.79c.445 0 .806.361.806.802v6.771Z"></path></svg>
+    <span><svg style=" color: white; " xmlns="http://www.w3.org/2000/svg" width="50px" fill="currentColor" viewBox="0 0 38 39"><path d="M21.877 16.036a.704.704 0 0 0-1 0l-1.793 1.794-1.793-1.794a.704.704 0 0 0-1 0 .704.704 0 0 0 0 1l1.794 1.793-1.794 1.794a.704.704 0 0 0 0 1c.137.136.32.208.502.208a.702.702 0 0 0 .501-.209l1.794-1.793 1.793 1.793a.702.702 0 0 0 1.003 0 .704.704 0 0 0 0-1l-1.793-1.793 1.794-1.793a.704.704 0 0 0 0-1h-.008Z"></path><path d="M18.825 36.325c-9.154 0-16.602-7.448-16.602-16.602S9.67 3.121 18.825 3.121s16.602 7.448 16.602 16.602c0 9.155-7.448 16.602-16.602 16.602Zm0-30.662c-7.752 0-14.056 6.308-14.056 14.056 0 7.749 6.308 14.057 14.056 14.057 7.748 0 14.056-6.308 14.056-14.057 0-7.748-6.304-14.056-14.056-14.056Z"></path><path d="M10.28 16.645H9.4a.247.247 0 0 0-.247.247v2.26c0 .137.11.247.247.247h.878c.136 0 .247-.11.247-.247v-2.26a.247.247 0 0 0-.247-.247ZM28.363 16.602h-.878a.247.247 0 0 0-.247.247v2.26c0 .137.11.248.247.248h.878c.137 0 .247-.111.247-.247v-2.261a.247.247 0 0 0-.247-.247Z"></path><path d="M27.695 15.98s.015.008.015.016v.604h.399v-.604c0-.217-.187-.392-.418-.392h-.867v-3.078c0-.866-.676-1.58-1.543-1.63l-5.89-.17a8.308 8.308 0 0 0-.972 0l-5.837.166a1.747 1.747 0 0 0-1.653 1.745v3.013H10.1c-.25 0-.455.175-.455.391v.605h.437v-.605s.007-.015.018-.015h.829v11.651a.72.72 0 0 0 .718.718h.14v.597c0 .315.255.57.57.57h1.008a.57.57 0 0 0 .57-.57v-.597h9.933v.597c0 .315.255.57.57.57h1.007a.57.57 0 0 0 .57-.57v-.597h.091c.395 0 .718-.319.718-.718V15.984h.867l.004-.003Zm-14.167-3.739c0-.25.205-.452.452-.452h9.918a.45.45 0 0 1 .453.452v1.186c0 .25-.206.452-.453.452H13.98a.45.45 0 0 1-.452-.452v-1.186Zm-1.03 14.155a.802.802 0 1 1 0-1.604.802.802 0 0 1 0 1.604Zm8.653 1.152c0 .133-.11.243-.243.243h-3.952a.245.245 0 0 1-.244-.243v-.365c0-.133.11-.243.244-.243h3.952c.133 0 .243.11.243.243v.365Zm1.558-1.953a.802.802 0 1 1 1.604 0 .802.802 0 0 1-1.604 0Zm3.393-3.569c0 .608-.479 1.11-1.09 1.133l-4.4.19a43.722 43.722 0 0 1-3.459 0l-4.366-.19a1.135 1.135 0 0 1-1.09-1.133v-6.771c0-.445.36-.802.809-.802h12.79c.445 0 .806.361.806.802v6.771Z"></path></svg>
        <div class="container abhi-assured-item " style="padding-left: 0;" >
-           <h3 class="text-neutral-0 h6" style="font-weight:700;font-size:28px;line-height:1.4;margin-bottom:0">Bus cancelled?</h3>
-           <p class="text-neutral-0" style="font-weight:400;font-size:26px;line-height:1.4;margin-bottom:0">150% Refund</p>
+           <h3 class="text-neutral-0 h6" style="color: white;font-weight:700;font-size:20px;line-height:1.4;margin-bottom:0">Bus cancelled?</h3>
+           <p class="text-neutral-0" style="font-weight:400;font-size:13px;line-height:1.4;margin-bottom:0">150% Refund</p>
       </div> </span>
-      <span><svg style=" color: white;" xmlns="http://www.w3.org/2000/svg" width="90px" fill="currentColor" viewBox="0 0 38 39"><path d="M19.11 35.997c-9.154 0-16.602-7.448-16.602-16.602S9.956 2.79 19.11 2.79s16.602 7.448 16.602 16.602c0 9.155-7.448 16.602-16.602 16.602v.004Zm0-30.662c-7.752 0-14.056 6.308-14.056 14.056 0 7.749 6.308 14.056 14.056 14.056 7.748 0 14.056-6.308 14.056-14.056 0-7.748-6.304-14.056-14.056-14.056Z"></path><path d="M21.93 18.385a2.857 2.857 0 1 1-5.714.002 2.857 2.857 0 0 1 5.713-.002ZM20.295 21.965c-.364.088-.779.346-1.223.346-.445 0-.859-.262-1.224-.346-.57-.137-1.429-.402-1.991-.402s-.992.475-.958 1.056l.532 7.84a1.135 1.135 0 0 0 1.121 1.056h5.032c.585 0 1.086-.475 1.12-1.057l.533-7.84c.034-.584-.392-1.055-.958-1.055s-1.425.27-1.991.402h.007Z"></path><path d="m15.454 25.003-4.123-2.956-.098-.073a1.014 1.014 0 0 1-.403-1.014l1.11-5.563a.9.9 0 0 1 1.774.304l-.798 5.616-.502-1.087 4.56 2.227a1.49 1.49 0 0 1-1.307 2.675c-.072-.034-.148-.083-.213-.125v-.004ZM21.17 22.46l4.56-2.227-.502 1.087-.798-5.617a.903.903 0 0 1 .764-1.018.904.904 0 0 1 1.01.714l1.11 5.564c.08.399-.087.79-.398 1.014l-.103.072-4.123 2.957a1.485 1.485 0 0 1-2.075-.342 1.485 1.485 0 0 1 .555-2.2v-.004ZM19.957 13.753l1.554-4.385 1.167 1.033L24.14 8.13l2.238 1.045-3.69 3.716-.9-.68-1.832 1.543ZM18.187 13.753l-1.555-4.385-1.166 1.033-1.463-2.272-2.238 1.045 3.69 3.716.9-.68 1.832 1.543Z"></path></svg>
+      <span><svg style=" color: white;" xmlns="http://www.w3.org/2000/svg" width="50px" fill="currentColor" viewBox="0 0 38 39"><path d="M19.11 35.997c-9.154 0-16.602-7.448-16.602-16.602S9.956 2.79 19.11 2.79s16.602 7.448 16.602 16.602c0 9.155-7.448 16.602-16.602 16.602v.004Zm0-30.662c-7.752 0-14.056 6.308-14.056 14.056 0 7.749 6.308 14.056 14.056 14.056 7.748 0 14.056-6.308 14.056-14.056 0-7.748-6.304-14.056-14.056-14.056Z"></path><path d="M21.93 18.385a2.857 2.857 0 1 1-5.714.002 2.857 2.857 0 0 1 5.713-.002ZM20.295 21.965c-.364.088-.779.346-1.223.346-.445 0-.859-.262-1.224-.346-.57-.137-1.429-.402-1.991-.402s-.992.475-.958 1.056l.532 7.84a1.135 1.135 0 0 0 1.121 1.056h5.032c.585 0 1.086-.475 1.12-1.057l.533-7.84c.034-.584-.392-1.055-.958-1.055s-1.425.27-1.991.402h.007Z"></path><path d="m15.454 25.003-4.123-2.956-.098-.073a1.014 1.014 0 0 1-.403-1.014l1.11-5.563a.9.9 0 0 1 1.774.304l-.798 5.616-.502-1.087 4.56 2.227a1.49 1.49 0 0 1-1.307 2.675c-.072-.034-.148-.083-.213-.125v-.004ZM21.17 22.46l4.56-2.227-.502 1.087-.798-5.617a.903.903 0 0 1 .764-1.018.904.904 0 0 1 1.01.714l1.11 5.564c.08.399-.087.79-.398 1.014l-.103.072-4.123 2.957a1.485 1.485 0 0 1-2.075-.342 1.485 1.485 0 0 1 .555-2.2v-.004ZM19.957 13.753l1.554-4.385 1.167 1.033L24.14 8.13l2.238 1.045-3.69 3.716-.9-.68-1.832 1.543ZM18.187 13.753l-1.555-4.385-1.166 1.033-1.463-2.272-2.238 1.045 3.69 3.716.9-.68 1.832 1.543Z"></path></svg>
        <div class="container abhi-assured-item " style="padding-left: 0;" >
-           <h3 class="text-neutral-0 h6" style="font-weight:700;font-size:28px;line-height:1.4;margin-bottom:0">Bad service quality?</h3>
-           <p class="text-neutral-0" style="font-weight:400;font-size:26px;line-height:1.4;margin-bottom:0">Upto 100% refund</p>
+           <h3 class="text-neutral-0 h6" style="color: white;font-weight:700;font-size:20px;line-height:1.4;margin-bottom:0">Bad service quality?</h3>
+           <p class="text-neutral-0" style="font-weight:400;font-size:13px;line-height:1.4;margin-bottom:0">Upto 100% refund</p>
        </div></span>
-       <span><svg style=" color: white;" xmlns="http://www.w3.org/2000/svg" width="90px" viewBox="0 0 38 39"><path fill="currentColor" d="M18.684 36.493c-9.154 0-16.602-7.448-16.602-16.602S9.526 3.29 18.684 3.29c9.158 0 16.602 7.448 16.602 16.602 0 9.155-7.448 16.602-16.602 16.602Zm0-30.658c-7.752 0-14.056 6.308-14.056 14.056 0 7.749 6.308 14.056 14.056 14.056 7.748 0 14.056-6.308 14.056-14.056 0-7.748-6.308-14.056-14.056-14.056Z"></path><path stroke="currentColor" d="M29.368 19.971c0 5.852-4.744 10.596-10.596 10.596S8.176 25.823 8.176 19.971 12.92 9.375 18.772 9.375s10.596 4.744 10.596 10.596Z"></path><path fill="currentColor" d="M18.666 9.719c6.505-.05 11.407 5.741 10.207 12.16-.776 4.142-4.108 7.417-8.25 8.147C13.616 31.26 7.539 25.204 8.733 18.2c.817-4.792 5.05-8.447 9.929-8.485l.004.004Zm.577.399.008 1.31c0 .02-.053.153-.065.183-.167.342-.668.365-.885.06a1.277 1.277 0 0 1-.087-.178l-.008-1.337-.042-.027a10.031 10.031 0 0 0-4.43 1.357c-.042.064.334.38.09.562a.226.226 0 0 1-.315-.027c-.053-.053-.14-.28-.209-.262-1.326.878-2.45 2.075-3.192 3.473.21.095.661.228.502.54-.16.312-.536-.008-.737-.08a8.993 8.993 0 0 0-.954 3.694l1.38-.008c.018 0 .155.05.185.065.35.175.358.684.03.885-.026.015-.151.08-.166.08l-1.437.008c.08 1.428.464 2.865 1.148 4.123.03.057.24.433.262.448.053.034.228-.122.293-.148.106-.046.235-.034.3.072.148.243-.148.372-.32.471v.042a10.053 10.053 0 0 0 2.946 2.816c.106.064.44.281.54.308.022.003.033.011.049-.012.117-.19.235-.627.547-.433.273.171 0 .498-.091.688 1.151.566 2.454.87 3.739.927l-.008-1.482c0-.167.243-.376.403-.403.285-.053.638.152.638.456l.008 1.425a9.814 9.814 0 0 0 4.549-1.402c.022-.034-.095-.167-.118-.213-.053-.114-.042-.216.064-.292.206-.145.354.057.426.235.027.008.046-.004.068-.015.179-.076.631-.46.802-.6a10.123 10.123 0 0 0 1.991-2.269c.118-.186.225-.376.335-.566-.194-.099-.604-.251-.392-.54.179-.243.441.008.643.069.54-1.197.896-2.49.923-3.812l-1.417.008c-.22 0-.43-.316-.43-.52 0-.206.213-.51.441-.514l1.398-.007a9.754 9.754 0 0 0-1.371-4.382c-.152.065-.323.243-.483.076-.194-.209.065-.376.228-.475a9.928 9.928 0 0 0-3.04-2.926c-.091-.057-.33-.213-.418-.235-.038-.012-.019.003-.03.022-.107.19-.225.593-.529.384-.273-.186.027-.456.069-.672-1.102-.49-1.33-.544-2.045-.707a11.661 11.661 0 0 0-1.774-.247l-.012.004Z"></path><path fill="currentColor" d="M18.715 13.697c1.216-.05 2.185.931 2.174 2.136-.3 1.725-.532 3.47-.855 5.19-.053.278-.084.487-.255.723-.547.752-1.752.566-2.056-.304-.304-1.71-.665-3.417-.927-5.134-.06-.388-.095-.684.008-1.076a2.081 2.081 0 0 1 1.915-1.535h-.004ZM18.84 23.296c1.216-.08 2.006 1.243 1.337 2.273-.611.938-2.055.84-2.538-.167-.44-.92.179-2.037 1.205-2.102l-.004-.004Z"></path></svg>
+       <span><svg style=" color: white;" xmlns="http://www.w3.org/2000/svg" width="50px" viewBox="0 0 38 39"><path fill="currentColor" d="M18.684 36.493c-9.154 0-16.602-7.448-16.602-16.602S9.526 3.29 18.684 3.29c9.158 0 16.602 7.448 16.602 16.602 0 9.155-7.448 16.602-16.602 16.602Zm0-30.658c-7.752 0-14.056 6.308-14.056 14.056 0 7.749 6.308 14.056 14.056 14.056 7.748 0 14.056-6.308 14.056-14.056 0-7.748-6.308-14.056-14.056-14.056Z"></path><path stroke="currentColor" d="M29.368 19.971c0 5.852-4.744 10.596-10.596 10.596S8.176 25.823 8.176 19.971 12.92 9.375 18.772 9.375s10.596 4.744 10.596 10.596Z"></path><path fill="currentColor" d="M18.666 9.719c6.505-.05 11.407 5.741 10.207 12.16-.776 4.142-4.108 7.417-8.25 8.147C13.616 31.26 7.539 25.204 8.733 18.2c.817-4.792 5.05-8.447 9.929-8.485l.004.004Zm.577.399.008 1.31c0 .02-.053.153-.065.183-.167.342-.668.365-.885.06a1.277 1.277 0 0 1-.087-.178l-.008-1.337-.042-.027a10.031 10.031 0 0 0-4.43 1.357c-.042.064.334.38.09.562a.226.226 0 0 1-.315-.027c-.053-.053-.14-.28-.209-.262-1.326.878-2.45 2.075-3.192 3.473.21.095.661.228.502.54-.16.312-.536-.008-.737-.08a8.993 8.993 0 0 0-.954 3.694l1.38-.008c.018 0 .155.05.185.065.35.175.358.684.03.885-.026.015-.151.08-.166.08l-1.437.008c.08 1.428.464 2.865 1.148 4.123.03.057.24.433.262.448.053.034.228-.122.293-.148.106-.046.235-.034.3.072.148.243-.148.372-.32.471v.042a10.053 10.053 0 0 0 2.946 2.816c.106.064.44.281.54.308.022.003.033.011.049-.012.117-.19.235-.627.547-.433.273.171 0 .498-.091.688 1.151.566 2.454.87 3.739.927l-.008-1.482c0-.167.243-.376.403-.403.285-.053.638.152.638.456l.008 1.425a9.814 9.814 0 0 0 4.549-1.402c.022-.034-.095-.167-.118-.213-.053-.114-.042-.216.064-.292.206-.145.354.057.426.235.027.008.046-.004.068-.015.179-.076.631-.46.802-.6a10.123 10.123 0 0 0 1.991-2.269c.118-.186.225-.376.335-.566-.194-.099-.604-.251-.392-.54.179-.243.441.008.643.069.54-1.197.896-2.49.923-3.812l-1.417.008c-.22 0-.43-.316-.43-.52 0-.206.213-.51.441-.514l1.398-.007a9.754 9.754 0 0 0-1.371-4.382c-.152.065-.323.243-.483.076-.194-.209.065-.376.228-.475a9.928 9.928 0 0 0-3.04-2.926c-.091-.057-.33-.213-.418-.235-.038-.012-.019.003-.03.022-.107.19-.225.593-.529.384-.273-.186.027-.456.069-.672-1.102-.49-1.33-.544-2.045-.707a11.661 11.661 0 0 0-1.774-.247l-.012.004Z"></path><path fill="currentColor" d="M18.715 13.697c1.216-.05 2.185.931 2.174 2.136-.3 1.725-.532 3.47-.855 5.19-.053.278-.084.487-.255.723-.547.752-1.752.566-2.056-.304-.304-1.71-.665-3.417-.927-5.134-.06-.388-.095-.684.008-1.076a2.081 2.081 0 0 1 1.915-1.535h-.004ZM18.84 23.296c1.216-.08 2.006 1.243 1.337 2.273-.611.938-2.055.84-2.538-.167-.44-.92.179-2.037 1.205-2.102l-.004-.004Z"></path></svg>
        <div class="container abhi-assured-item " style="padding-left: 0;">
-           <h3 class="text-neutral-0 h6" style="font-weight:700;font-size:28px;line-height:1.4;margin-bottom:0">Bus delayed?</h3>
-           <p class="text-neutral-0" style="font-weight:400;font-size:26px;line-height:1.4;margin-bottom:0">Upto 100% refund</p>
+           <h3 class="text-neutral-0 h6" style="color: white;font-weight:700;font-size:20px;line-height:1.4;margin-bottom:0">Bus delayed?</h3>
+           <p class="text-neutral-0" style="font-weight:400;font-size:13px;line-height:1.4;margin-bottom:0">Upto 100% refund</p>
        </div></span>
-       <span><svg style=" color: white;" xmlns="http://www.w3.org/2000/svg" width="90px" fill="currentColor" viewBox="0 0 38 39"><path d="M18.704 36.493c-9.154 0-16.602-7.448-16.602-16.602S9.55 3.29 18.704 3.29s16.602 7.448 16.602 16.602c0 9.155-7.448 16.602-16.602 16.602Zm0-30.658c-7.752 0-14.056 6.308-14.056 14.056 0 7.749 6.308 14.056 14.056 14.056 7.748 0 14.056-6.308 14.056-14.056 0-7.748-6.304-14.056-14.056-14.056Z"></path><path d="M11.332 11.902h1.238v-.855c0-.787 1.24-.787 1.24 0v2.949c0 .786-1.24.786-1.24 0v-.855h-1.238c-.707 0-1.296.589-1.296 1.296v1.618h16.898v-1.618c0-.707-.589-1.296-1.295-1.296v-1.239a2.547 2.547 0 0 1 2.53 2.53v6.073a6.907 6.907 0 0 0-1.238-1.36V17.29H10.036v8.623c0 .706.589 1.295 1.296 1.295h4.712c.186.437.418.852.684 1.24h-5.396A2.547 2.547 0 0 1 8.8 25.915V14.433a2.547 2.547 0 0 1 2.53-2.531Zm11.73 9.793v2.397c0 .084.03.152.088.21l1.06 1.06c.57.566-.327 1.42-.874.874l-1.338-1.338a.574.574 0 0 1-.175-.418v-2.785c0-.787 1.24-.787 1.24 0Zm-4.024 3.48c.532-.581-.38-1.413-.912-.836l-.171.187v-.057c0-1.24.502-2.36 1.315-3.173a4.471 4.471 0 0 1 3.173-1.315 4.46 4.46 0 0 1 3.161 1.303c.551.547 1.44-.315.87-.881a5.715 5.715 0 0 0-4.035-1.661 5.718 5.718 0 0 0-5.727 5.727v.068l-.178-.198c-.532-.581-1.444.255-.912.836.422.46.84.931 1.269 1.384a.596.596 0 0 0 .874 0l1.27-1.384h.003Zm9.724-.387a.585.585 0 0 1-.414-.194l-.179-.198v.069a5.725 5.725 0 0 1-9.762 4.062c-.57-.562.323-1.429.87-.882a4.485 4.485 0 0 0 6.335-.011 4.471 4.471 0 0 0 1.315-3.173v-.06l-.171.185c-.52.57-1.456-.243-.912-.836l1.269-1.383a.596.596 0 0 1 .874 0l1.27 1.383c.372.407.007 1.05-.499 1.026l.004.012ZM24.4 11.047v2.949c0 .786-1.239.786-1.239 0v-.855h-2.82v-1.239h2.82v-.855c0-.787 1.239-.787 1.239 0Zm-5.297 0v2.949c0 .786-1.24.786-1.24 0v-.855h-2.819v-1.239h2.82v-.855c0-.787 1.239-.787 1.239 0Z"></path><path d="M11.491 11.895h14.247c.999 0 1.808.809 1.808 1.808v1.93a.908.908 0 0 1-.908.909H10.135a.457.457 0 0 1-.456-.456v-2.383c0-1 .81-1.808 1.809-1.808h.003ZM15.682 18.336H14.39a.33.33 0 0 0-.33.33v1.293c0 .182.148.33.33.33h1.292a.33.33 0 0 0 .33-.33v-1.293a.33.33 0 0 0-.33-.33ZM15.682 21.469H14.39a.33.33 0 0 0-.33.33v1.292c0 .183.148.33.33.33h1.292a.33.33 0 0 0 .33-.33V21.8a.33.33 0 0 0-.33-.33ZM12.65 18.336h-1.292a.33.33 0 0 0-.33.33v1.293c0 .182.147.33.33.33h1.292a.33.33 0 0 0 .33-.33v-1.293a.33.33 0 0 0-.33-.33ZM12.65 21.465h-1.292a.33.33 0 0 0-.33.33v1.292c0 .183.147.331.33.331h1.292a.33.33 0 0 0 .33-.33v-1.293a.33.33 0 0 0-.33-.33ZM12.65 24.52h-1.292a.33.33 0 0 0-.33.33v1.292c0 .183.147.33.33.33h1.292a.33.33 0 0 0 .33-.33V24.85a.33.33 0 0 0-.33-.33Z"></path></svg>
+       <span><svg style=" color: white;" xmlns="http://www.w3.org/2000/svg" width="50px" fill="currentColor" viewBox="0 0 38 39"><path d="M18.704 36.493c-9.154 0-16.602-7.448-16.602-16.602S9.55 3.29 18.704 3.29s16.602 7.448 16.602 16.602c0 9.155-7.448 16.602-16.602 16.602Zm0-30.658c-7.752 0-14.056 6.308-14.056 14.056 0 7.749 6.308 14.056 14.056 14.056 7.748 0 14.056-6.308 14.056-14.056 0-7.748-6.304-14.056-14.056-14.056Z"></path><path d="M11.332 11.902h1.238v-.855c0-.787 1.24-.787 1.24 0v2.949c0 .786-1.24.786-1.24 0v-.855h-1.238c-.707 0-1.296.589-1.296 1.296v1.618h16.898v-1.618c0-.707-.589-1.296-1.295-1.296v-1.239a2.547 2.547 0 0 1 2.53 2.53v6.073a6.907 6.907 0 0 0-1.238-1.36V17.29H10.036v8.623c0 .706.589 1.295 1.296 1.295h4.712c.186.437.418.852.684 1.24h-5.396A2.547 2.547 0 0 1 8.8 25.915V14.433a2.547 2.547 0 0 1 2.53-2.531Zm11.73 9.793v2.397c0 .084.03.152.088.21l1.06 1.06c.57.566-.327 1.42-.874.874l-1.338-1.338a.574.574 0 0 1-.175-.418v-2.785c0-.787 1.24-.787 1.24 0Zm-4.024 3.48c.532-.581-.38-1.413-.912-.836l-.171.187v-.057c0-1.24.502-2.36 1.315-3.173a4.471 4.471 0 0 1 3.173-1.315 4.46 4.46 0 0 1 3.161 1.303c.551.547 1.44-.315.87-.881a5.715 5.715 0 0 0-4.035-1.661 5.718 5.718 0 0 0-5.727 5.727v.068l-.178-.198c-.532-.581-1.444.255-.912.836.422.46.84.931 1.269 1.384a.596.596 0 0 0 .874 0l1.27-1.384h.003Zm9.724-.387a.585.585 0 0 1-.414-.194l-.179-.198v.069a5.725 5.725 0 0 1-9.762 4.062c-.57-.562.323-1.429.87-.882a4.485 4.485 0 0 0 6.335-.011 4.471 4.471 0 0 0 1.315-3.173v-.06l-.171.185c-.52.57-1.456-.243-.912-.836l1.269-1.383a.596.596 0 0 1 .874 0l1.27 1.383c.372.407.007 1.05-.499 1.026l.004.012ZM24.4 11.047v2.949c0 .786-1.239.786-1.239 0v-.855h-2.82v-1.239h2.82v-.855c0-.787 1.239-.787 1.239 0Zm-5.297 0v2.949c0 .786-1.24.786-1.24 0v-.855h-2.819v-1.239h2.82v-.855c0-.787 1.239-.787 1.239 0Z"></path><path d="M11.491 11.895h14.247c.999 0 1.808.809 1.808 1.808v1.93a.908.908 0 0 1-.908.909H10.135a.457.457 0 0 1-.456-.456v-2.383c0-1 .81-1.808 1.809-1.808h.003ZM15.682 18.336H14.39a.33.33 0 0 0-.33.33v1.293c0 .182.148.33.33.33h1.292a.33.33 0 0 0 .33-.33v-1.293a.33.33 0 0 0-.33-.33ZM15.682 21.469H14.39a.33.33 0 0 0-.33.33v1.292c0 .183.148.33.33.33h1.292a.33.33 0 0 0 .33-.33V21.8a.33.33 0 0 0-.33-.33ZM12.65 18.336h-1.292a.33.33 0 0 0-.33.33v1.293c0 .182.147.33.33.33h1.292a.33.33 0 0 0 .33-.33v-1.293a.33.33 0 0 0-.33-.33ZM12.65 21.465h-1.292a.33.33 0 0 0-.33.33v1.292c0 .183.147.331.33.331h1.292a.33.33 0 0 0 .33-.33v-1.293a.33.33 0 0 0-.33-.33ZM12.65 24.52h-1.292a.33.33 0 0 0-.33.33v1.292c0 .183.147.33.33.33h1.292a.33.33 0 0 0 .33-.33V24.85a.33.33 0 0 0-.33-.33Z"></path></svg>
        <div class="container abhi-assured-item " style="padding-left: 0;">
-           <h3 class="text-neutral-0 h6" style="font-weight:700;font-size:28px;line-height:1.4;margin-bottom:0">Changed your plans?</h3>
-           <p class="text-neutral-0" style="font-weight:400;font-size:26px;line-height:1.4;margin-bottom:0">100% refund</p>
+           <h3 class="text-neutral-0 h6" style="color: white;font-weight:700;font-size:20px;line-height:1.4;margin-bottom:0">Changed your plans?</h3>
+           <p class="text-neutral-0" style="font-weight:400;font-size:13px;line-height:1.4;margin-bottom:0">100% refund</p>
        </div></span>
-       <a class="btn read-more light link primary sm rounded-md inactive link" role="button" style="font-size: 1.3rem; font-weight: 500; display:flex;flex-direction:row-reverse;align-content:center;align-items:center;justify-content:flex-end;justify-items:center;column-gap:0.25rem;color: #dc635b; "><span><svg xmlns="http://www.w3.org/2000/svg" width="1.3rem" height="1.3rem" fill="none" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M8.712 6.23a.762.762 0 0 1 1.071-.02l5.486 5.25a.747.747 0 0 1 0 1.08l-5.486 5.25c-.3.287-.78.279-1.07-.02a.746.746 0 0 1 .018-1.06L13.652 12l-4.92-4.71a.746.746 0 0 1-.02-1.06Z" clip-rule="evenodd"></path></svg></span><span>Read More ></span></a>
+       <a class="btn-red-line" role="button" style="font-size: 1.3rem; font-weight: 500; display:flex;flex-direction:row-reverse;align-content:center;align-items:center;justify-content:flex-end;justify-items:center;column-gap:0.25rem;color: #dc635b; "><span><svg xmlns="http://www.w3.org/2000/svg" width="1.3rem" height="1.3rem" fill="none" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M8.712 6.23a.762.762 0 0 1 1.071-.02l5.486 5.25a.747.747 0 0 1 0 1.08l-5.486 5.25c-.3.287-.78.279-1.07-.02a.746.746 0 0 1 .018-1.06L13.652 12l-4.92-4.71a.746.746 0 0 1-.02-1.06Z" clip-rule="evenodd"></path></svg></span><span>Read More ></span></a>
    </div>
   </div>  
 
@@ -292,13 +280,13 @@
         
         <div class="container-black-tent1  " >
            
-                <div class="container-text ">
-                <p>AbhiBus is India`s leading online bus ticket booking service provider. Check out budget friendly offers and save big with discount coupons to book bus 
+                <div class="container-text " style="color: black;">
+                <p style="  color: gray;" >AbhiBus is India`s leading online bus ticket booking service provider. Check out budget friendly offers and save big with discount coupons to book bus 
                     tickets at the lowest price with us. You can check the bus schedules, compare prices, and find all the information you need to plan an ideal and comfortable
                      bus or train journey.</p>
-                     <p>AbhiBus has simplified the online bus booking process for your travel planning. In case you need to cancel the ticket or change the dates, 
+                     <p style="  color: gray;">AbhiBus has simplified the online bus booking process for your travel planning. In case you need to cancel the ticket or change the dates, 
                         You can save both time and money by choosing AbhiCash as a refund option which can be used instantly. Book now!!!</p>
-                        <p>Browse through all your bus route options, and use our advanced smart filters to ensure a reliable and comfortable journey, tailored to your scheduled travel plans.</p>
+                        <p style="  color: gray;">Browse through all your bus route options, and use our advanced smart filters to ensure a reliable and comfortable journey, tailored to your scheduled travel plans.</p>
             </div>
             <div class=" col auto s12 l5">
                 <img style="margin-left: 5rem; width: 80%; height: 90%;" src="https://static.abhibus.com/web/online-bus-booking-service.png" alt="Booking Services" >
@@ -307,7 +295,7 @@
     </div>
     <div class="booking-services-text-neutral">
         <h2 class="title text-neutral-900">Online Bus Ticket Booking at Lowest Price</h2>
-        <p style="  font-size: 1.6rem;color: gray;">With AbhiBus, travellers can book bus tickets online at the lowest ticket fares. Travellers can choose their favorite bus for online bus booking. AbhiBus is the right place for reserving bus tickets as you will find a wide range of Private buses and SRTC (State Road Transport Corporation)
+        <p style="  color: gray;">With AbhiBus, travellers can book bus tickets online at the lowest ticket fares. Travellers can choose their favorite bus for online bus booking. AbhiBus is the right place for reserving bus tickets as you will find a wide range of Private buses and SRTC (State Road Transport Corporation)
              buses are available for  online on AbhiBus.<br><br> Below, you will find various types of buses available to book bus tickets on AbhiBus at the lowest fare for bus ticket booking:</p>
         <div class="container-black-tent1  " >
            
@@ -345,7 +333,7 @@
     </div>
    <div class="booking-services-text-neutral">
         <h2 class="title text-neutral-800">Benefits of Booking Bus Tickets Online</h2>
-        <p style="  font-size: 1.6rem;color: gray;">In this day and age of technology, offline modes of bus ticket booking are no longer preferred. Online ticket booking is easy, fast, and hassle-free. AbhiBus ticks off all the three with user-friendly app and website navigation.Booking bus tickets online with AbhiBus has resolved many issues that people encounter while booking tickets at offline counters or through travel
+        <p style="  color: gray;">In this day and age of technology, offline modes of bus ticket booking are no longer preferred. Online ticket booking is easy, fast, and hassle-free. AbhiBus ticks off all the three with user-friendly app and website navigation.Booking bus tickets online with AbhiBus has resolved many issues that people encounter while booking tickets at offline counters or through travel
              agents. Download the AbhiBus App to experience the benefits of bus ticket booking online.<br><br> Here is a list of all the benefits of booking bus tickets online on AbhiBus</p>
         
         <div class="container-black-tent1  " >
@@ -369,15 +357,18 @@
             </div>
         </div>
     </div>
+
     <div class="container-midle-bg-img" style="flex-direction:column;justify-content:flex-start;align-items:normal;align-content:flex-start;padding:45px 30px;flex-wrap:wrap" id="bus-booking-offers-card">
-        <div class="row card-body bus-booking-offers text-neutral-0-content light  sm" style="flex-direction:column">
-            <h2 class="h4 title text-neutral-0" style="font-size: 2.1rem; font-weight: 500; margin-top: 2rem;">Offers on Bus Booking</h2>
+        <div class="row-t-sm" style="flex-direction:column">
+            <h2 class="h4 title text-neutral-0" style="font-size: 2.1rem; font-weight: 500; margin-top: 2rem;color: white;">Offers on Bus Booking</h2>
             <div class=" col s12 l7">
-                <p>Travellers can find exclusive<!-- -->
-                     <a class="btn  light link info md rounded-md inactive link" href="https://www.abhibus.com/bus-ticket-offers" target="_blank" rel="noopener noreferrer" style="vertical-align:baseline;text-decoration:underline; color: blue;font-size: 1.5rem; ">bus booking offers</a>, discount coupons, cashback and more on <br>AbhiBus. You can book bus tickets at the lowest price to any destination in India.Choose bus <br>ticket fares from operators offering the lowest, mid-range, and highest prices on AbhiBus.<br> Check for bus ticket price comparisons, select your preferred bus for bus booking, apply <br> coupon code and save money on your bus journey today!<!-- --> </p></div></div></div>
+            <p>Travellers can find exclusive<!-- -->
+            <a class="btn-light-link-6info-link" href="https://www.abhibus.com/bus-ticket-offers" target="_blank" rel="noopener noreferrer" style="vertical-align:baseline;text-decoration:underline; color: blue;font-size: 1.5rem; ">bus booking offers</a>, discount coupons, cashback and more on <br>AbhiBus. You can book bus tickets at the lowest price to any destination in India.Choose bus <br>ticket fares from operators offering the lowest, mid-range, and highest prices on AbhiBus.<br> Check for bus ticket price comparisons, select your preferred bus for bus booking, apply <br> coupon code and save money on your bus journey today!<!-- --> 
+       </p></div></div></div>
+
     <div class="booking-services-text-neutral">
         <h2 class="title text-neutral-900">How to Book Bus Tickets Online on AbhiBus</h2>
-        <p style="  font-size: 1.6rem;color: gray;">Each and every booking or transaction you do on the AbhiBus website is simple, safe & secure. You can complete 
+        <p style="  color: gray;">Each and every booking or transaction you do on the AbhiBus website is simple, safe & secure. You can complete 
             your booking process from the best bus booking website AbhiBus.com by following the steps mentioned below.</p>
         <div class="container-black-tent1  " >
            
@@ -404,7 +395,7 @@
         
         <div class="container-black-tent1  " >
            
-                <div class="container-text " style="width: 57%;">
+                <div class="container-text " style="width: 57%; color:BLACK;">
                 <p>Most of the online bus bookings are unplanned, with only 32% of the people reserving tickets on the day of travel and 24% one day before the journey. Keeping this in mind, AbhiBus has ensured buses are available round the clock 24/7 by listing all the scheduled buses. At times you could be the lucky one because many of our bus partners provide last-minute deals that offer up to 25% discount
                      on the bus ticket fare. You can experience flexibility in both bus timings and price choices when booking tickets on AbhiBus.</p>
                      <p>AbhiBus provides the quickest way to find last-minute online bus bookings, allowing you to compare prices, operator schedules, and more.Travellers can enjoy the affordability and convenience that comes with thousands of trusted bus operators who have partnered with us in India.
@@ -436,124 +427,115 @@
         <h2 class="title text-neutral-800">Top Private Travels</h2>
         <div>
             <div class="scrollable-container  primary hide-scrollbar" style=" display: flex; flex-direction:row;justify-content:flex-start;align-items:center;align-content:flex-start;flex-wrap:nowrap;width:100%;scroll-behavior:smooth;gap:20px;overflow-x:scroll; scrollbar-width: none;">
-                <a class="btn  light link primary md rounded-md inactive link" href="https://www.abhibus.com/operator/3992/fresh-bus" target="_blank">
+                <a  href="https://www.abhibus.com/operator/3992/fresh-bus" target="_blank">
                     <img src="https://static.abhibus.com//travels-logos/freshbus.webp" alt="Fresh Bus" width="320" height="145" style="text-align:center;padding:16px"></a>
-                <a class="btn  light link primary md rounded-md inactive link" href="https://www.abhibus.com/operator/3048/zingbus" target="_blank">
+                    <a  href="https://www.abhibus.com/operator/3048/zingbus" target="_blank">
                     <img src="https://static.abhibus.com/busimages/img/zingbus-logo.png" alt="Zingbus" width="320" height="145" style="text-align:center;padding:16px"></a>
-                <a class="btn  light link primary md rounded-md inactive link" href="https://www.abhibus.com/operator/2760/intrcity-smartbus" target="_blank">
+                <a  href="https://www.abhibus.com/operator/2760/intrcity-smartbus" target="_blank">
                     <img src="https://static.abhibus.com//Intrcity smartbus/Intrcity smartbus.webp" alt="Intrcity Smartbus" width="320" height="145" style="text-align:center;padding:16px"></a>
-                <a class="btn  light link primary md rounded-md inactive link" href="https://www.abhibus.com/operator/5982/flixbus" target="_blank">
+                <a href="https://www.abhibus.com/operator/5982/flixbus" target="_blank">
                     <img src="https://static.abhibus.com/travels-logos/flixbus.webp     " alt="Flixbus" width="320" height="145" style="text-align:center;padding:16px"></a>
-                <a class="btn  light link primary md rounded-md inactive link" href="https://www.abhibus.com/operator/3260/shyamoli-paribahan-private-limited" target="_blank">
+                <a href="https://www.abhibus.com/operator/3260/shyamoli-paribahan-private-limited" target="_blank">
                     <img src="https://static.abhibus.com/Logos/shyamoli.webp" alt="Shyamoli " width="320" height="145" style="text-align:center;padding:16px"></a>
-                <a class="btn  light link primary md rounded-md inactive link" href="https://www.abhibus.com/operator/46/Sugama-Travels" target="_blank">
+                <a href="https://www.abhibus.com/operator/46/Sugama-Travels" target="_blank">
                     <img src="https://static.abhibus.com//travels-logos/sugama-tourist.webp" alt="Sugama Tourist" width="320" height="145" style="text-align:center;padding:16px"></a>
-                <a class="btn  light link primary md rounded-md inactive link" href="https://www.abhibus.com/operator/630/Prasanna-Purple-Travels" target="_blank">
+                <a href="https://www.abhibus.com/operator/630/Prasanna-Purple-Travels" target="_blank">
                     <img src="https://static.abhibus.com/Logos/purpleBus.webp" alt="Purple Bus" width="320" height="145" style="text-align:center;padding:16px"></a>
             </div>
         </div>
         </div>
       <div class="booking-services-text-neutral">
         <h2 class="title text-neutral-800">Popular Bus Routes</h2>
-        <p style="  font-size: 1.6rem;color: gray;">You can check popular bus routes, compare bus schedules, timings and their prices to book bus tickets online. AbhiBus offers you low-cost bus fares for your travel
+        <p style="  color: gray;">You can check popular bus routes, compare bus schedules, timings and their prices to book bus tickets online. AbhiBus offers you low-cost bus fares for your travel
              across India. For a seamless travel experience, book bus tickets online with AbhiBus for your bus journey.</p>
        <div class="location-jar">
      
         <div class="booking-services-imgs21">
-            <span style="display: flex;">
-            <img src="https://static.abhibus.com/web/hyderabad.png" alt="" width="100px"
-            height="100px" style="border-radius: 20px;">
-            <div class="title text-neutral-800">Bangalore <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" fill="none" viewBox="0 0 18 16" style="vertical-align:middle"><path fill="currentColor" d="M.217 8.614a1.072 1.072 0 0 1 .854-1.716c4.85-.003 8.424 0 13.274-.001l-3.968-3.968c-.207-.214-.46-.407-.554-.702A1.076 1.076 0 0 1 10.327.93a1.08 1.08 0 0 1 1.28.199c2.432 2.431 3.476 3.477 5.909 5.908.16.157.328.319.408.534.138.336.086.742-.133 1.033-.09.118-.201.219-.306.324l-5.942 5.941a1.073 1.073 0 0 1-1.72-.244 1.074 1.074 0 0 1 .005-1.003c.092-.178.246-.31.385-.452l4.13-4.13-13.271-.001a1.073 1.073 0 0 1-.855-.425Z"></path></svg> Hyderabad</div>
+            <span style="display: flex; align-items: center; gap: 10px;">
+            <img src="https://static.abhibus.com/web/hyderabad.png" alt="" width="70px" height="70px" style="border-radius: 20px;">
+            <div class="title-text-neutral-800">Bangalore <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" fill="none" viewBox="0 0 18 16" style="vertical-align:middle"><path fill="currentColor" d="M.217 8.614a1.072 1.072 0 0 1 .854-1.716c4.85-.003 8.424 0 13.274-.001l-3.968-3.968c-.207-.214-.46-.407-.554-.702A1.076 1.076 0 0 1 10.327.93a1.08 1.08 0 0 1 1.28.199c2.432 2.431 3.476 3.477 5.909 5.908.16.157.328.319.408.534.138.336.086.742-.133 1.033-.09.118-.201.219-.306.324l-5.942 5.941a1.073 1.073 0 0 1-1.72-.244 1.074 1.074 0 0 1 .005-1.003c.092-.178.246-.31.385-.452l4.13-4.13-13.271-.001a1.073 1.073 0 0 1-.855-.425Z"></path></svg> Hyderabad</div>
         </span>
         <a class="btn-text-neutral-800" href="https://www.abhibus.com/buses/10/Bangalore-Hyderabad" rel="noreferrer" color="primary" style=" border: 1px solid; ">View Buses</a>
         </div>
            <div class="booking-services-imgs21">
-            <span style="display: flex;">
-            <img src="https://static.abhibus.com/web/hyderabad.png" alt="" width="100px"
-            height="100px" style="border-radius: 20px;">
-            <div class="title text-neutral-800"> Hyderabad <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" fill="none" viewBox="0 0 18 16" style="vertical-align:middle"><path fill="currentColor" d="M.217 8.614a1.072 1.072 0 0 1 .854-1.716c4.85-.003 8.424 0 13.274-.001l-3.968-3.968c-.207-.214-.46-.407-.554-.702A1.076 1.076 0 0 1 10.327.93a1.08 1.08 0 0 1 1.28.199c2.432 2.431 3.476 3.477 5.909 5.908.16.157.328.319.408.534.138.336.086.742-.133 1.033-.09.118-.201.219-.306.324l-5.942 5.941a1.073 1.073 0 0 1-1.72-.244 1.074 1.074 0 0 1 .005-1.003c.092-.178.246-.31.385-.452l4.13-4.13-13.271-.001a1.073 1.073 0 0 1-.855-.425Z"></path></svg>Vijayawada </div>
+            <span style="display: flex; align-items: center; gap: 10px;">
+            <img src="https://static.abhibus.com/web/hyderabad.png" alt="" width="70px" height="70px"
+             style="border-radius: 20px;">
+            <div class="title-text-neutral-800"> Hyderabad <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" fill="none" viewBox="0 0 18 16" style="vertical-align:middle"><path fill="currentColor" d="M.217 8.614a1.072 1.072 0 0 1 .854-1.716c4.85-.003 8.424 0 13.274-.001l-3.968-3.968c-.207-.214-.46-.407-.554-.702A1.076 1.076 0 0 1 10.327.93a1.08 1.08 0 0 1 1.28.199c2.432 2.431 3.476 3.477 5.909 5.908.16.157.328.319.408.534.138.336.086.742-.133 1.033-.09.118-.201.219-.306.324l-5.942 5.941a1.073 1.073 0 0 1-1.72-.244 1.074 1.074 0 0 1 .005-1.003c.092-.178.246-.31.385-.452l4.13-4.13-13.271-.001a1.073 1.073 0 0 1-.855-.425Z"></path></svg>Vijayawada </div>
         </span>
         <a class="btn-text-neutral-800" href="https://www.abhibus.com/buses/10/Bangalore-Hyderabad" rel="noreferrer" color="primary" style=" border: 1px solid; ">View Buses</a>
         </div>
         <div class="booking-services-imgs21">
-            <span style="display: flex;">
-            <img src="https://static.abhibus.com/web/chennai.png" alt="" width="100px"
-            height="100px" style="border-radius: 20px;">
-            <div class="title text-neutral-800">Hyderabad <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" fill="none" viewBox="0 0 18 16" style="vertical-align:middle"><path fill="currentColor" d="M.217 8.614a1.072 1.072 0 0 1 .854-1.716c4.85-.003 8.424 0 13.274-.001l-3.968-3.968c-.207-.214-.46-.407-.554-.702A1.076 1.076 0 0 1 10.327.93a1.08 1.08 0 0 1 1.28.199c2.432 2.431 3.476 3.477 5.909 5.908.16.157.328.319.408.534.138.336.086.742-.133 1.033-.09.118-.201.219-.306.324l-5.942 5.941a1.073 1.073 0 0 1-1.72-.244 1.074 1.074 0 0 1 .005-1.003c.092-.178.246-.31.385-.452l4.13-4.13-13.271-.001a1.073 1.073 0 0 1-.855-.425Z"></path></svg> Chennai</div>
+            <span style="display: flex; align-items: center; gap: 10px;">
+            <img src="https://static.abhibus.com/web/chennai.png" alt="" width="70px" height="70px" style="border-radius: 20px;">
+            <div class="title-text-neutral-800">Hyderabad <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" fill="none" viewBox="0 0 18 16" style="vertical-align:middle"><path fill="currentColor" d="M.217 8.614a1.072 1.072 0 0 1 .854-1.716c4.85-.003 8.424 0 13.274-.001l-3.968-3.968c-.207-.214-.46-.407-.554-.702A1.076 1.076 0 0 1 10.327.93a1.08 1.08 0 0 1 1.28.199c2.432 2.431 3.476 3.477 5.909 5.908.16.157.328.319.408.534.138.336.086.742-.133 1.033-.09.118-.201.219-.306.324l-5.942 5.941a1.073 1.073 0 0 1-1.72-.244 1.074 1.074 0 0 1 .005-1.003c.092-.178.246-.31.385-.452l4.13-4.13-13.271-.001a1.073 1.073 0 0 1-.855-.425Z"></path></svg> Chennai</div>
         </span>
         <a class="btn-text-neutral-800" href="https://www.abhibus.com/buses/10/Bangalore-Hyderabad" rel="noreferrer" color="primary" style=" border: 1px solid; ">View Buses</a>
         </div>
         <!--  -->
          <div class="booking-services-imgs21">
-            <span style="display: flex;">
-            <img src="https://static.abhibus.com/web/hyderabad.png" alt="" width="100px"
-            height="100px" style="border-radius: 20px;">
-            <div class="title text-neutral-800">Bangalore <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" fill="none" viewBox="0 0 18 16" style="vertical-align:middle"><path fill="currentColor" d="M.217 8.614a1.072 1.072 0 0 1 .854-1.716c4.85-.003 8.424 0 13.274-.001l-3.968-3.968c-.207-.214-.46-.407-.554-.702A1.076 1.076 0 0 1 10.327.93a1.08 1.08 0 0 1 1.28.199c2.432 2.431 3.476 3.477 5.909 5.908.16.157.328.319.408.534.138.336.086.742-.133 1.033-.09.118-.201.219-.306.324l-5.942 5.941a1.073 1.073 0 0 1-1.72-.244 1.074 1.074 0 0 1 .005-1.003c.092-.178.246-.31.385-.452l4.13-4.13-13.271-.001a1.073 1.073 0 0 1-.855-.425Z"></path></svg> Lucknow</div>
+            <span style="display: flex; align-items: center; gap: 10px;">
+            <img src="https://static.abhibus.com/web/hyderabad.png" alt="" width="70px" height="70px" style="border-radius: 20px;">
+            <div class="title-text-neutral-800">Bangalore <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" fill="none" viewBox="0 0 18 16" style="vertical-align:middle"><path fill="currentColor" d="M.217 8.614a1.072 1.072 0 0 1 .854-1.716c4.85-.003 8.424 0 13.274-.001l-3.968-3.968c-.207-.214-.46-.407-.554-.702A1.076 1.076 0 0 1 10.327.93a1.08 1.08 0 0 1 1.28.199c2.432 2.431 3.476 3.477 5.909 5.908.16.157.328.319.408.534.138.336.086.742-.133 1.033-.09.118-.201.219-.306.324l-5.942 5.941a1.073 1.073 0 0 1-1.72-.244 1.074 1.074 0 0 1 .005-1.003c.092-.178.246-.31.385-.452l4.13-4.13-13.271-.001a1.073 1.073 0 0 1-.855-.425Z"></path></svg> Lucknow</div>
         </span>
         <a class="btn-text-neutral-800" href="https://www.abhibus.com/buses/10/Bangalore-Hyderabad" rel="noreferrer" color="primary" style=" border: 1px solid; ">View Buses</a>
         </div>
          <div class="booking-services-imgs21">
-            <span style="display: flex;">
-            <img src="https://static.abhibus.com/web/Tirupathi.png" alt="" width="100px"
-            height="100px" style="border-radius: 20px;">
-            <div class="title text-neutral-800">Hyderabad <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" fill="none" viewBox="0 0 18 16" style="vertical-align:middle"><path fill="currentColor" d="M.217 8.614a1.072 1.072 0 0 1 .854-1.716c4.85-.003 8.424 0 13.274-.001l-3.968-3.968c-.207-.214-.46-.407-.554-.702A1.076 1.076 0 0 1 10.327.93a1.08 1.08 0 0 1 1.28.199c2.432 2.431 3.476 3.477 5.909 5.908.16.157.328.319.408.534.138.336.086.742-.133 1.033-.09.118-.201.219-.306.324l-5.942 5.941a1.073 1.073 0 0 1-1.72-.244 1.074 1.074 0 0 1 .005-1.003c.092-.178.246-.31.385-.452l4.13-4.13-13.271-.001a1.073 1.073 0 0 1-.855-.425Z"></path></svg>Tirupathi</div>
+            <span style="display: flex; align-items: center; gap: 10px;">
+            <img src="https://static.abhibus.com/web/Tirupathi.png" alt="" width="70px" height="70px" style="border-radius: 20px;">
+            <div class="title-text-neutral-800">Hyderabad <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" fill="none" viewBox="0 0 18 16" style="vertical-align:middle"><path fill="currentColor" d="M.217 8.614a1.072 1.072 0 0 1 .854-1.716c4.85-.003 8.424 0 13.274-.001l-3.968-3.968c-.207-.214-.46-.407-.554-.702A1.076 1.076 0 0 1 10.327.93a1.08 1.08 0 0 1 1.28.199c2.432 2.431 3.476 3.477 5.909 5.908.16.157.328.319.408.534.138.336.086.742-.133 1.033-.09.118-.201.219-.306.324l-5.942 5.941a1.073 1.073 0 0 1-1.72-.244 1.074 1.074 0 0 1 .005-1.003c.092-.178.246-.31.385-.452l4.13-4.13-13.271-.001a1.073 1.073 0 0 1-.855-.425Z"></path></svg>Tirupathi</div>
         </span>
         <a class="btn-text-neutral-800" href="https://www.abhibus.com/buses/10/Bangalore-Hyderabad" rel="noreferrer" color="primary" style=" border: 1px solid; ">View Buses</a>
         </div>
         <div class="booking-services-imgs21">
-            <span style="display: flex;">
-            <img src="https://static.abhibus.com/web/Tirupathi.png" alt="" width="100px"
-            height="100px" style="border-radius: 20px;">
-            <div class="title text-neutral-800">Hyderabad <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" fill="none" viewBox="0 0 18 16" style="vertical-align:middle"><path fill="currentColor" d="M.217 8.614a1.072 1.072 0 0 1 .854-1.716c4.85-.003 8.424 0 13.274-.001l-3.968-3.968c-.207-.214-.46-.407-.554-.702A1.076 1.076 0 0 1 10.327.93a1.08 1.08 0 0 1 1.28.199c2.432 2.431 3.476 3.477 5.909 5.908.16.157.328.319.408.534.138.336.086.742-.133 1.033-.09.118-.201.219-.306.324l-5.942 5.941a1.073 1.073 0 0 1-1.72-.244 1.074 1.074 0 0 1 .005-1.003c.092-.178.246-.31.385-.452l4.13-4.13-13.271-.001a1.073 1.073 0 0 1-.855-.425Z"></path></svg>Tirupathi</div>
+            <span style="display: flex; align-items: center; gap: 10px;">
+            <img src="https://static.abhibus.com/web/Tirupathi.png" alt="" width="70px" height="70px" style="border-radius: 20px;">
+            <div class="title-text-neutral-800">Hyderabad <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" fill="none" viewBox="0 0 18 16" style="vertical-align:middle"><path fill="currentColor" d="M.217 8.614a1.072 1.072 0 0 1 .854-1.716c4.85-.003 8.424 0 13.274-.001l-3.968-3.968c-.207-.214-.46-.407-.554-.702A1.076 1.076 0 0 1 10.327.93a1.08 1.08 0 0 1 1.28.199c2.432 2.431 3.476 3.477 5.909 5.908.16.157.328.319.408.534.138.336.086.742-.133 1.033-.09.118-.201.219-.306.324l-5.942 5.941a1.073 1.073 0 0 1-1.72-.244 1.074 1.074 0 0 1 .005-1.003c.092-.178.246-.31.385-.452l4.13-4.13-13.271-.001a1.073 1.073 0 0 1-.855-.425Z"></path></svg>Tirupathi</div>
         </span>
         <a class="btn-text-neutral-800" href="https://www.abhibus.com/buses/10/Bangalore-Hyderabad" rel="noreferrer" color="primary" style=" border: 1px solid; ">View Buses</a>
         </div>
         <div class="booking-services-imgs21">
-            <span style="display: flex;">
-            <img src="https://static.abhibus.com/web/delhi.png" alt="" width="100px"
-            height="100px" style="border-radius: 20px;">
-            <div class="title text-neutral-800">Bangalore <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" fill="none" viewBox="0 0 18 16" style="vertical-align:middle"><path fill="currentColor" d="M.217 8.614a1.072 1.072 0 0 1 .854-1.716c4.85-.003 8.424 0 13.274-.001l-3.968-3.968c-.207-.214-.46-.407-.554-.702A1.076 1.076 0 0 1 10.327.93a1.08 1.08 0 0 1 1.28.199c2.432 2.431 3.476 3.477 5.909 5.908.16.157.328.319.408.534.138.336.086.742-.133 1.033-.09.118-.201.219-.306.324l-5.942 5.941a1.073 1.073 0 0 1-1.72-.244 1.074 1.074 0 0 1 .005-1.003c.092-.178.246-.31.385-.452l4.13-4.13-13.271-.001a1.073 1.073 0 0 1-.855-.425Z"></path></svg> Tirupathi</div>
+            <span style="display: flex; align-items: center; gap: 10px;">
+            <img src="https://static.abhibus.com/web/delhi.png" alt="" width="70px" height="70px" style="border-radius: 20px;">
+            <div class="title-text-neutral-800">Bangalore <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" fill="none" viewBox="0 0 18 16" style="vertical-align:middle"><path fill="currentColor" d="M.217 8.614a1.072 1.072 0 0 1 .854-1.716c4.85-.003 8.424 0 13.274-.001l-3.968-3.968c-.207-.214-.46-.407-.554-.702A1.076 1.076 0 0 1 10.327.93a1.08 1.08 0 0 1 1.28.199c2.432 2.431 3.476 3.477 5.909 5.908.16.157.328.319.408.534.138.336.086.742-.133 1.033-.09.118-.201.219-.306.324l-5.942 5.941a1.073 1.073 0 0 1-1.72-.244 1.074 1.074 0 0 1 .005-1.003c.092-.178.246-.31.385-.452l4.13-4.13-13.271-.001a1.073 1.073 0 0 1-.855-.425Z"></path></svg> Tirupathi</div>
         </span>
         <a class="btn-text-neutral-800" href="https://www.abhibus.com/buses/10/Bangalore-Hyderabad" rel="noreferrer" color="primary" style=" border: 1px solid; ">View Buses</a>
         </div>
        
         <div class="booking-services-imgs21">
-            <span style="display: flex;">
-            <img src="https://static.abhibus.com/web/delhi.png" alt="" width="100px"
-            height="100px" style="border-radius: 20px;">
-            <div class="title text-neutral-800">Bangalore <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" fill="none" viewBox="0 0 18 16" style="vertical-align:middle"><path fill="currentColor" d="M.217 8.614a1.072 1.072 0 0 1 .854-1.716c4.85-.003 8.424 0 13.274-.001l-3.968-3.968c-.207-.214-.46-.407-.554-.702A1.076 1.076 0 0 1 10.327.93a1.08 1.08 0 0 1 1.28.199c2.432 2.431 3.476 3.477 5.909 5.908.16.157.328.319.408.534.138.336.086.742-.133 1.033-.09.118-.201.219-.306.324l-5.942 5.941a1.073 1.073 0 0 1-1.72-.244 1.074 1.074 0 0 1 .005-1.003c.092-.178.246-.31.385-.452l4.13-4.13-13.271-.001a1.073 1.073 0 0 1-.855-.425Z"></path></svg> Madurai</div>
+            <span style="display: flex; align-items: center; gap: 10px;">
+            <img src="https://static.abhibus.com/web/delhi.png" alt="" width="70px" height="70px" style="border-radius: 20px;">
+            <div class="title-text-neutral-800">Bangalore <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" fill="none" viewBox="0 0 18 16" style="vertical-align:middle"><path fill="currentColor" d="M.217 8.614a1.072 1.072 0 0 1 .854-1.716c4.85-.003 8.424 0 13.274-.001l-3.968-3.968c-.207-.214-.46-.407-.554-.702A1.076 1.076 0 0 1 10.327.93a1.08 1.08 0 0 1 1.28.199c2.432 2.431 3.476 3.477 5.909 5.908.16.157.328.319.408.534.138.336.086.742-.133 1.033-.09.118-.201.219-.306.324l-5.942 5.941a1.073 1.073 0 0 1-1.72-.244 1.074 1.074 0 0 1 .005-1.003c.092-.178.246-.31.385-.452l4.13-4.13-13.271-.001a1.073 1.073 0 0 1-.855-.425Z"></path></svg> Madurai</div>
         </span>
         <a class="btn-text-neutral-800" href="https://www.abhibus.com/buses/10/Bangalore-Hyderabad" rel="noreferrer" color="primary" style=" border: 1px solid; ">View Buses</a>
         </div>
         <div class="booking-services-imgs21">
-            <span style="display: flex;">
-            <img src="https://static.abhibus.com/web/delhi.png" alt="" width="100px"
-            height="100px" style="border-radius: 20px;">
-            <div class="title text-neutral-800">Bangalore <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" fill="none" viewBox="0 0 18 16" style="vertical-align:middle"><path fill="currentColor" d="M.217 8.614a1.072 1.072 0 0 1 .854-1.716c4.85-.003 8.424 0 13.274-.001l-3.968-3.968c-.207-.214-.46-.407-.554-.702A1.076 1.076 0 0 1 10.327.93a1.08 1.08 0 0 1 1.28.199c2.432 2.431 3.476 3.477 5.909 5.908.16.157.328.319.408.534.138.336.086.742-.133 1.033-.09.118-.201.219-.306.324l-5.942 5.941a1.073 1.073 0 0 1-1.72-.244 1.074 1.074 0 0 1 .005-1.003c.092-.178.246-.31.385-.452l4.13-4.13-13.271-.001a1.073 1.073 0 0 1-.855-.425Z"></path></svg> Manali</div>
+            <span style="display: flex; align-items: center; gap: 10px;">
+            <img src="https://static.abhibus.com/web/delhi.png" alt="" width="70px" height="70px" style="border-radius: 20px;">
+            <div class="title-text-neutral-800">Bangalore <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" fill="none" viewBox="0 0 18 16" style="vertical-align:middle"><path fill="currentColor" d="M.217 8.614a1.072 1.072 0 0 1 .854-1.716c4.85-.003 8.424 0 13.274-.001l-3.968-3.968c-.207-.214-.46-.407-.554-.702A1.076 1.076 0 0 1 10.327.93a1.08 1.08 0 0 1 1.28.199c2.432 2.431 3.476 3.477 5.909 5.908.16.157.328.319.408.534.138.336.086.742-.133 1.033-.09.118-.201.219-.306.324l-5.942 5.941a1.073 1.073 0 0 1-1.72-.244 1.074 1.074 0 0 1 .005-1.003c.092-.178.246-.31.385-.452l4.13-4.13-13.271-.001a1.073 1.073 0 0 1-.855-.425Z"></path></svg> Manali</div>
         </span>
         <a class="btn-text-neutral-800" href="https://www.abhibus.com/buses/10/Bangalore-Hyderabad" rel="noreferrer" color="primary" style=" border: 1px solid; ">View Buses</a>
         </div>
         <div class="booking-services-imgs21">
-            <span style="display: flex;">
-            <img src="https://static.abhibus.com/web/hyderabad.png" alt="" width="100px"
-            height="100px" style="border-radius: 20px;">
-            <div class="title text-neutral-800">Bangalore <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" fill="none" viewBox="0 0 18 16" style="vertical-align:middle"><path fill="currentColor" d="M.217 8.614a1.072 1.072 0 0 1 .854-1.716c4.85-.003 8.424 0 13.274-.001l-3.968-3.968c-.207-.214-.46-.407-.554-.702A1.076 1.076 0 0 1 10.327.93a1.08 1.08 0 0 1 1.28.199c2.432 2.431 3.476 3.477 5.909 5.908.16.157.328.319.408.534.138.336.086.742-.133 1.033-.09.118-.201.219-.306.324l-5.942 5.941a1.073 1.073 0 0 1-1.72-.244 1.074 1.074 0 0 1 .005-1.003c.092-.178.246-.31.385-.452l4.13-4.13-13.271-.001a1.073 1.073 0 0 1-.855-.425Z"></path></svg> Jaipur</div>
+            <span style="display: flex; align-items: center; gap: 10px;">
+            <img src="https://static.abhibus.com/web/hyderabad.png" alt="" width="70px" height="70px" style="border-radius: 20px;">
+            <div class="title-text-neutral-800">Bangalore <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" fill="none" viewBox="0 0 18 16" style="vertical-align:middle"><path fill="currentColor" d="M.217 8.614a1.072 1.072 0 0 1 .854-1.716c4.85-.003 8.424 0 13.274-.001l-3.968-3.968c-.207-.214-.46-.407-.554-.702A1.076 1.076 0 0 1 10.327.93a1.08 1.08 0 0 1 1.28.199c2.432 2.431 3.476 3.477 5.909 5.908.16.157.328.319.408.534.138.336.086.742-.133 1.033-.09.118-.201.219-.306.324l-5.942 5.941a1.073 1.073 0 0 1-1.72-.244 1.074 1.074 0 0 1 .005-1.003c.092-.178.246-.31.385-.452l4.13-4.13-13.271-.001a1.073 1.073 0 0 1-.855-.425Z"></path></svg> Jaipur</div>
         </span>
         <a class="btn-text-neutral-800" href="https://www.abhibus.com/buses/10/Bangalore-Hyderabad" rel="noreferrer" color="primary" style=" border: 1px solid; ">View Buses</a>
         </div>
        </div>
         </div>
-         <div class="container-midle-bg-img" style="flex-direction:column;justify-content:flex-start;align-items:normal;align-content:flex-start;padding:45px 30px;flex-wrap:wrap;background: url('https://static.abhibus.com/web/live-location.png');background-size: 110% 100%;background-repeat: no-repeat;background-position: 50%;" id="bus-booking-offers-card">
+         <div class="container-midle-bg-img" style="color: white; flex-direction:column;justify-content:flex-start;align-items:normal;align-content:flex-start;padding:45px 30px;flex-wrap:wrap;background: url('https://static.abhibus.com/web/live-location.png');background-size: 110% 100%;background-repeat: no-repeat;background-position: 50%;" id="bus-booking-offers-card">
         <div class="row card-body bus-booking-offers text-neutral-0-content light  sm" style="flex-direction:column">
-            <h2 class="h4 title text-neutral-0" style="font-size: 2.1rem; font-weight: 500;">Track Your Bus Live Location</h2>
-            <div class=" col s12 l7" style="width: 45%;">
-                <p>AbhiBus is solving the biggest concern while boarding a bus by providing a tracking option that provides the live location of the bus. This option keeps passengers informed about the bus live location so that passengers can plan their boarding accordingly. AbhiBus live bus tracking system allows you to track your bus status by entering your AbhiBus Booking ID and either Email ID or Mobile Number details in the input field box. It's a simple, fast, and secure way to manage, track your bus live location on Google Maps with<!-- -->
-                     <br><a class="btn  light link info md rounded-md inactive link" href="https://www.abhibus.com/bus-ticket-offers" target="_blank" rel="noopener noreferrer" style="vertical-align:baseline;text-decoration:underline; color: blue;font-size: 1.5rem; ">AbhiBus live bus tracking</a>technology. Find scheduled bus departure and arrival times of your bus route, the distance between cities and more information.<br>
+            <h2 class="h4 title text-neutral-0" style="font-size: 2rem; font-weight: 500;">Track Your Bus Live Location</h2>
+            <div class=" col-s12-l7" style="width: 50%; ">
+                <p style="font-size: 1rem;">AbhiBus is solving the biggest concern while boarding a bus by providing a tracking option that provides the live location of the bus. This option keeps passengers informed about the bus live location so that passengers can plan their boarding accordingly. AbhiBus live bus tracking system allows you to track your bus status by entering your AbhiBus Booking ID and either Email ID or Mobile Number details in the input field box. It's a simple, fast, and secure way to manage, track your bus live location on Google Maps with<!-- -->
+                     <br><a class="bt" href="https://www.abhibus.com/bus-ticket-offers" target="_blank" rel="noopener noreferrer" style="vertical-align:baseline;text-decoration:underline; color: blue;font-size: 1.5rem; ">AbhiBus live bus tracking</a>technology. Find scheduled bus departure and arrival times of your bus route, the distance between cities and more information.<br>
                     
                      <br>Booking Bus tickets online in advance and reserving your seats also gives you benefits on early bird discount offers and help you to plan a hassle-free bus journey. Book bus tickets now and enjoy the live bus tracking status online with us.<!-- --> 
                     </p></div></div></div>
    
-                    <div style="margin: 1rem; background-color: white; width:  120rem; border-radius: 24px; box-shadow: 4px 4px 14px 4px ;">
+                    <div style="margin: 1rem; background-color: white; width:  97%; border-radius: 24px; box-shadow: 4px 4px 14px 4px ;">
                         <div class="container install-app-new-banner bg-neutral-0 " style="width: 100%;display: flex; flex-flow: wrap; place-content: flex-start; align-items: normal; padding: 2rem 4.5rem; position: relative;">
                             <div class=" col" style="position:absolute;top:0;left:0;z-index:-1; ">
                                 <img src="https://static.abhibus.com/web/LeftCircleBg.svg" alt="LeftCircleBg" width="142" height="125"></div>
@@ -576,13 +558,13 @@
                                                 </path><path fill="#C55227" fill-rule="evenodd" d="M8.79 14.713a1.205 1.205 0 0 0 2.41 0H8.79Z" clip-rule="evenodd"></path>
                                                 <path fill="#F8B87E" d="M15.192 13.508H5.173c-.401-.2-.964-.723 0-1.205.965-.482 1.206-3.013 1.206-4.219C6.78 6.88 8.066 4.47 9.994 4.47c1.929 0 3.214 1.607 3.616 2.41l.603 4.821.979 1.808Z"></path><path fill="#C55227" fill-rule="evenodd" d="M5.74 10.156s.12 1.405-1.173 2.137c0 0-.584.433-.527.98.049.474.635.623 1.117.623h9.745c.296 0 .631-.058.857-.21.148-.1.249-.24.26-.43.03-.51-.485-.915-.544-.96l-.004-.003-.002.003-.007-.004a2.314 2.314 0 0 1-.946-.98c-.302-.597-.266-1.154-.266-1.154s.065-1.86-.025-2.472c-.554-3.737-4.292-3.51-4.292-3.51S6.19 3.948 5.715 7.685c-.078.614.026 2.471.026 2.471Zm7.61 1.12a3.39 3.39 0 0 0 1.018 1.55H5.66a3.323 3.323 0 0 0 1.004-1.57 3.624 3.624 0 0 0 .15-1.058 2.363 2.363 0 0 0-.005-.104v-.016a29.662 29.662 0 0 1-.014-.271c-.008-.18-.019-.425-.027-.688-.016-.565-.018-1.092.009-1.3.18-1.425.932-2.012 1.633-2.3a3.794 3.794 0 0 1 1.463-.275l.06.004.06-.004h.091a3.864 3.864 0 0 1 1.383.277c.714.292 1.486.889 1.7 2.322.03.206.04.734.034 1.299a42.843 42.843 0 0 1-.018.902l-.001.058v.01a1.253 1.253 0 0 0-.003.11 3.647 3.647 0 0 0 .17 1.054Z" clip-rule="evenodd"></path><path fill="#FFEAE7" fill-rule="evenodd" d="M11.098 7.584c-.225-.15-.555-.166-1.098-.166a.5.5 0 0 1 0-1h.058c.455 0 1.09-.002 1.594.334.582.388.848 1.1.848 2.166a.5.5 0 0 1-1 0c0-.934-.234-1.221-.402-1.334Z" clip-rule="evenodd"></path></svg> Receive instant fare alerts</div></div><div class="text-black font-md col s12" style="margin-bottom:1rem"><svg xmlns="http://www.w3.org/2000/svg" width="1rem" height="1rem" fill="none" viewBox="0 0 20 20" style="vertical-align:bottom"><path fill="#FFEAE7" d="M20 10c0-5.523-4.477-10-10-10S0 4.477 0 10s4.477 10 10 10 10-4.477 10-10Z"></path><g clip-path="url(#Tracker_svg__a)"><circle cx="10.024" cy="9.811" r="2.5" fill="#F8B87E"></circle><path fill="#C55227" d="M9.904 16.811c-.291-.114-.414-.327-.386-.636.01-.124-.006-.25.003-.375.01-.118-.03-.162-.151-.175a5.618 5.618 0 0 1-2.762-1.043C5.183 13.55 4.38 12.15 4.174 10.408l-.012-.097h-.606C3.223 10.31 3 10.107 3 9.81c0-.3.222-.497.559-.499h.603c.144-1.42.697-2.644 1.707-3.648 1.006-1 2.23-1.547 3.65-1.69v-.621c.004-.322.21-.542.502-.54.289 0 .495.224.5.545.004.193.003.385.005.578 0 .01.008.019.003.008 3.08.506 4.857 2.28 5.373 5.369.182 0 .4-.005.616.001.216.007.406.16.462.36a.475.475 0 0 1-.19.537.736.736 0 0 1-.322.097c-.195.015-.393.004-.567.004-.509 3.084-2.289 4.862-5.379 5.37 0 .141-.01.302.002.462.023.307-.082.536-.37.668h-.25Zm-4.723-6.5c.221 2.476 2.34 4.195 4.318 4.309.006-.01.015-.018.015-.027.003-.182.002-.364.006-.547.007-.291.208-.504.48-.514.277-.01.502.202.52.496.008.13.002.26.002.39v.211c2.3-.195 4.164-2.13 4.323-4.311-.046-.002-.092-.006-.138-.006l-.455-.001c-.317-.003-.54-.213-.538-.505.003-.287.221-.491.532-.494.202-.002.403 0 .606 0-.223-2.442-2.28-4.173-4.33-4.314v.558a.505.505 0 0 1-.26.469.494.494 0 0 1-.74-.411c-.009-.205 0-.41 0-.617C7.273 5.16 5.34 7.09 5.187 9.311h.28c.576 0 .811.144.814.497.003.354-.235.503-.806.503h-.295Z"></path><path fill="#C55227" d="M12.524 9.811a2.51 2.51 0 0 1-2.516 2.5 2.503 2.503 0 0 1-2.496-2.5 2.502 2.502 0 0 1 2.512-2.5 2.51 2.51 0 0 1 2.5 2.5Zm-4.008-.014a1.5 1.5 0 0 0 1.47 1.514 1.504 1.504 0 0 0 1.534-1.485 1.507 1.507 0 0 0-1.473-1.514 1.5 1.5 0 0 0-1.531 1.485Z"></path></g><defs><clipPath id="Tracker_svg__a"><path fill="#fff" d="M3 2.812h14v14H3z"></path></clipPath></defs></svg> Track bus status</div><div class=" col s12" style="margin-bottom:1rem"> <a class="btn  light filled success sm rounded-md inactive button" role="contentinfo" style="font-weight:700;padding:0.5rem;font-size:1rem">4.8</a> <img src="https://static.abhibus.com/web/media/install/app-rating-20230824.webp" style="vertical-align:middle" alt="App Install Rating" width="auto" height="24"> </div></div><div class=" col auto s12"><div class="container  " style="flex-direction:row;justify-content:center;align-items:center;align-content:flex-start;flex-wrap:wrap"><div class=" col auto s12 m6" style=""><a class="btn  light link primary sm rounded-md inactive link" aria-label="Install iOS App" role="button" style=""><img src="https://static.abhibus.com/seo/bus-routes/app-store-black.png" alt="AbhiBus iOS App" title="AbhiBus iOS App" width="160px" height="54px"></a><br><a class="btn  light link primary sm rounded-md inactive link" aria-label="Install Android App" role="button"><img src="https://static.abhibus.com/web/media/install/install-andriod-app.20230824.webp" alt="AbhiBus Android App" title="AbhiBus Android App" width="160" height="48"></a></div><div class=" col auto s12 m6" style="padding: 2rem;"><img src="https://static.abhibus.com/seo/bus-routes/abhibus-app-qr.png" alt="Abhibus QR code" width="140" height="140"></div></div></div></div>
                     </div>
-      <div style="width: 120rem;">
+      <div style="width: 97%; margin: 1rem;padding: 1rem;">
          <h2 class="title text-neutral-800">About Abhibus</h2>
-         <p style="  font-size: 1.6rem;color: gray;">AbhiBus, over the years, has strived to deliver easy booking solutions to its customers. Our continued efforts have resulted in AbhiBus becoming one of the leading and top-rated bus booking platforms in India for various Bus services.
+         <p style="  color: gray;">AbhiBus, over the years, has strived to deliver easy booking solutions to its customers. Our continued efforts have resulted in AbhiBus becoming one of the leading and top-rated bus booking platforms in India for various Bus services.
              We have a strong presence with a ticket inventory from over 6200 bus partners and 650000 route options on our app and website.</p>
-                     <p style="  font-size: 1.6rem;color: gray;">Founded in the year 2008, AbhiBus is a pioneer in providing end-to-end software and other value-added solutions such as e-ticketing systems, fleet management solutions, vehicle tracking systems, passenger information systems, and logistics management backed by a 24x7 customer support center. The company also provides technology
+                     <p style="  color: gray;">Founded in the year 2008, AbhiBus is a pioneer in providing end-to-end software and other value-added solutions such as e-ticketing systems, fleet management solutions, vehicle tracking systems, passenger information systems, and logistics management backed by a 24x7 customer support center. The company also provides technology
                          solutions to more than 300 large private bus partners in India, 5 state transport corporations, and 2 international bus partners.</p>     
-     <a href="" style="  font-size: 1.6rem;color: #dc635b; text-decoration: none;">Know more about Abhibus</a>
+     <a href="" style="  color: #dc635b; text-decoration: none;">Know more about Abhibus</a>
                         </div>
       <div>
         
