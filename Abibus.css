@@ -110,7 +110,7 @@
 
         .fields{
             display:grid;
-            grid-template-columns: 1frm 1frm 1frm 1frm 1frm 1frm;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
             position:relative;
             gap:4px;
         }
